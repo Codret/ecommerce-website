@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E commerce Website</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <!--Start navbar section  -->
+  <header class="section-navbar">
+    <section class="top_txt">
+      <div class="head container">
+        <div class="head_text">
+          <p>Free Shipping, 30 Days return or refund guarantee</p>
+        </div>
+        <div class="siig_in_up">
+          <a href="#">SIGN IN</a>
+          <a href="#">SIGN UP</a>
+        </div>
+      </div>
+    </section>
+    <div class="conatainer">
+      <div class="navbar-brand">
+        <a href="index.html">
+          <img 
+           src="./public/images/lohg.png" 
+           alt="CodeYet Logo"
+           class="logo"
+           width="80%"
+           height="auto"
+          />
+        </a>
+
+      </div>
+      <nav class="navbar">
+        <ul>
+          <li class="nav-item">
+            <a href="/" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="product.html" class="nav-link">Product</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a href="addToCart.html" class="nav-link"><i class="fa-solid fa-cart-shopping" id="cartValue">0</i> </a>
+          </li>
+          
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- End navbar section  -->
+
+
+
+<!-- Start Extra Product Section -->
+  <section class="section-extra-product">
+    <div class="container grid grid-three--cols">
+      <div class="div-extra grid grid-two--cols">
+        <div class="extra-text">
+          <p>New Year Sale</p>
+          <h3>Get Extra 50% off</h3>
+          <a href="#">Shop Now</a>
+        </div>
+        <div class="extra-img extra-laptop">
+          <img src="./public/images/laptop.png" alt="">
+        </div>
+      </div>
+
+      <div class="div-extra grid grid-two--cols">
+        <div class="extra-text">
+          <p>New Year Sale</p>
+          <h3>40% Discount On Speakers</h3>
+          <a href="#">Shop Now</a>
+        </div>
+        <div class="extra-img">
+          <img src="./public/images/speakers.png" alt="">
+        </div>
+      </div>
+
+      <div class="div-extra grid grid-two--cols">
+        <div class="extra-text">
+          <p>New Year Sale</p>
+          <h3>Get an Extra 50% off</h3>
+          <a href="#">Shop Now</a>
+        </div>
+        <div class="extra-img">
+          <img src="./public/images/iphone.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- End Extra Product Section. -->
+
+
+
+<!-- Start  Our product Section               ----->>> 
+  <section class="section-product container">
+    <div class="">
+      <h2 class="section-common--heading">CheckOut CodeYet Stores</h2>
+    </div>
+
+    <section class="container">
+      <div id="productContainer">
+        
+      </div>
+    </section>
+  </section>
+
+<!-- start Product Template Sections -->
+  <Template id="productTemplate">
+    <div class="cards" id="cardValue">
+      <article class="information [card]">
+        <span class="category"></span>
+        <div class="imageContainer">
+          <img class="productImage" src="" alt="">
+        </div>
+        <h2 class="productName"></h2>
+
+        <div class="productRating">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+
+        <p class="productDescription"></p>
+
+        <div class="productPriceElement">
+          <p class="productPrice"></p>
+          <p class="productActualPrice"></p>
+        </div>
+
+        <div class="productStockelement">
+          <p class="productProperty">Total Stock Availaible</p>
+          <p class="productStock"></p>
+        </div>
+
+        <div class="productQuantityElement">
+          <p class="productProperty">Quantity(Pieces)</p>
+          <div class="stockElement">
+            <button class="cartIncrement">+</button>
+            <p class="productQuantity">1</p>
+            <button class="cartDecrement">-</button>
+          </div>
+        </div>
+
+        <button class="add-to-cart-button">
+          <i class="fa-solid fa-cart-shopping"></i>Add To Cart
+        </button>
+      </article>
+    </div>
+  </Template>
+<!-- end Product Template Section  -->
+
+
+<!-- End  Our product Section                       -->>. -->
+
+
+
+<!-- start Footer Section                 -->
+
+<footer class="section-footer">
+  <div class="footer-container container">
+    <div class="content_1">
+      <img src="./public/images/logo.png" alt="logo">
+      <p>Welcome to CodeYet Store </p>
+      <i class="fa-brands fa-cc-visa"></i>
+      <i class="fa-regular fa-credit-card"></i>
+      <i class="fa-solid fa-credit-card"></i>
+      <i class="fa-solid fa-money-check"></i>
+      <i class="fa-brands fa-paypal"></i>
+      <i class="fa-brands fa-google-pay"></i>
+    </div>
+
+    <!-- footer 2nd div  -->
+    <div class="footer-2-div">
+      <p class="footer-subheading">Shopping</p>
+      <ul>
+        <li><a href="#"> Computer Store </a></li>
+        <li><a href="#"> Laptop Store </a></li>
+        <li><a href="#"> Accessories </a></li>
+        <li><a href="#"> Sales & Discounts </a></li>
+      </ul>
+    </div>
+
+    <!-- footer 3rd div  -->
+    <div class="footer-3-div">
+      <p class="footer-subheading">Experiences</p>
+      <ul>
+        <li><a href="#"> Contact Us </a></li>
+        <li><a href="#"> Payment Method </a></li>
+        <li><a href="#"> Delivery </a></li>
+        <li><a href="#"> Returns & Exchanges </a></li>
+      </ul>
+    </div>
+
+    <!-- footer 4th div  -->
+    <div class="footer-4-div">
+      <p class="footer-subheading">NEWSLATERS</p>
+      <ul>
+        <li><a href="#"> Be the First to know about new Arrivals.<br/>Sales and promos! </a></li>
+      </ul>
+    </div>
+  </div>
+
+</footer>
+
+<!-- End Footer Section             -->
+
+<script type="module" src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+[
+    {
+        "id":1,
+        "name": "Laptop",
+        "category":"Computers",
+        "brand": "ExampleBrand",
+        "price":999.99,
+        "stock":30,
+        "description": "PowerFull Laptop With a Quad-Core i5 Processor, 8GB Ram,256Gb SSD, and a 14-inch FHD display.",
+        "image": "./public/images/laptop.png"
+    },
+
+    {
+        "id":2,
+        "name": "SmartPhone",
+        "category":"Mobile",
+        "brand": "TechGadgets",
+        "price":499.99,
+        "stock":50,
+        "description": "PowerFull phone Snapdragon Processor, 8GB Ram,256Gb, and a Super Amoled display.",
+        "image": "../images/mobiles.png"
+    },
+
+    {
+        "id":3,
+        "name": "Headphone",
+        "category":"Sound",
+        "brand": "Boat",
+        "price":1199,
+        "stock":45,
+        "description": "PowerFull Headphone , Dolby Surround Sound",
+        "image": "../images/headphone.png"
+    },
+
+    {
+        "id":4,
+        "name": "Iphone",
+        "category":"Mobile",
+        "brand": "Apple",
+        "price":35299,
+        "stock":10,
+        "description": "PowerFull phone, 8GB Ram,512 Gb Memory",
+        "image": "../images/iphone.png"
+    },
+
+    {
+        "id":5,
+        "name": "Speaker",
+        "category":"Sound",
+        "brand": "boat",
+        "price":1599,
+        "stock":15,
+        "description": "PowerFull Speaker With high Quality Sound.",
+        "image": "../images/speakers.png"
+    },
+
+    {
+        "id":6,
+        "name": "Watch",
+        "category":"Gadgets",
+        "brand": "boat",
+        "price":1399.99,
+        "stock":50,
+        "description": "High Quality SmartWatch With all Features Of Smartphone ",
+        "image": "../images/watch.png"
+    }
+]
